@@ -19,7 +19,7 @@ $ npm install -g pdfcheck
 $ pdfcheck COMMAND
 running command...
 $ pdfcheck (-v|--version|version)
-pdfcheck/0.0.0 darwin-x64 node-v12.13.1
+pdfcheck/0.0.1 darwin-x64 node-v12.13.1
 $ pdfcheck --help [COMMAND]
 USAGE
   $ pdfcheck COMMAND
@@ -28,45 +28,25 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`pdfcheck accessibility [FILE]`](#pdfcheck-accessibility-file)
-* [`pdfcheck hello [FILE]`](#pdfcheck-hello-file)
+* [`pdfcheck accessibility FILE`](#pdfcheck-accessibility-file)
 * [`pdfcheck help [COMMAND]`](#pdfcheck-help-command)
 
-## `pdfcheck accessibility [FILE]`
+## `pdfcheck accessibility FILE`
 
 describe the command here
 
 ```
 USAGE
-  $ pdfcheck accessibility [FILE]
+  $ pdfcheck accessibility FILE
+
+ARGUMENTS
+  FILE  The file to be checked
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help  show CLI help
 ```
 
-_See code: [src/commands/accessibility.ts](https://github.com/theBenForce/pdfcheck/blob/v0.0.0/src/commands/accessibility.ts)_
-
-## `pdfcheck hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ pdfcheck hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ pdfcheck hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/theBenForce/pdfcheck/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/accessibility.ts](https://github.com/drg-adaptive/pdfcheck/blob/v0.0.1/src/commands/accessibility.ts)_
 
 ## `pdfcheck help [COMMAND]`
 
