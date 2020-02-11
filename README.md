@@ -30,6 +30,8 @@ USAGE
 <!-- commands -->
 * [`pdfcheck accessibility FILE`](#pdfcheck-accessibility-file)
 * [`pdfcheck help [COMMAND]`](#pdfcheck-help-command)
+* [`pdfcheck list-operators FILE`](#pdfcheck-list-operators-file)
+* [`pdfcheck validate-content [FILE]`](#pdfcheck-validate-content-file)
 
 ## `pdfcheck accessibility FILE`
 
@@ -64,4 +66,35 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
+
+## `pdfcheck list-operators FILE`
+
+describe the command here
+
+```
+USAGE
+  $ pdfcheck list-operators FILE
+
+OPTIONS
+  -h, --help       show CLI help
+  -p, --page=page  limit operator list to a specific page
+```
+
+_See code: [src/commands/list-operators.ts](https://github.com/drg-adaptive/pdfcheck/blob/v0.0.1/src/commands/list-operators.ts)_
+
+## `pdfcheck validate-content [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ pdfcheck validate-content [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/validate-content.ts](https://github.com/drg-adaptive/pdfcheck/blob/v0.0.1/src/commands/validate-content.ts)_
 <!-- commandsstop -->
